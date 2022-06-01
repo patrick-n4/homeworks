@@ -1,0 +1,139 @@
+@font-face {
+  font-family: fira;
+  src: url(./Fonts/FiraCode-VariableFont_wght.ttf);
+}
+body {
+  background-color: #eeeeee;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: fira;
+}
+.container {
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #eeeeee;
+}
+.header {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circle {
+  width: 4.5em;
+  height: 4.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px black solid;
+}
+.body {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  gap: 1.5em;
+  padding-top: 1.5em;
+}
+.first {
+  width: 25%;
+  height: 90%;
+}
+.top {
+  background-color: #93649a;
+  height: 35%;
+}
+.bottom {
+  width: 100%;
+  height: 65%;
+  background-color: white;
+  position: relative;
+  padding-top: 5em;
+}
+.quokkabottle {
+  width: 100%;
+  height: 20em;
+  position: absolute;
+  top: -14em;
+  padding-right: 2em;
+}
+.data {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+}
+.data > p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.starring {
+  display: flex;
+  height: 30%;
+  align-items: center;
+}
+.fa-star {
+  color: #ffa31c;
+  font-size: 2.3em;
+}
+.fa-star-half-stroke {
+  color: #ffa31c;
+  font-size: 2.3em;
+}
+.last {
+  border: 1px #ffa31c solid;
+}
+.bottles {
+  margin-bottom: 1em;
+}
+.money {
+  margin-bottom: 1em;
+}
+.button {
+  width: 100%;
+  height: 20%;
+  color: white;
+  background-color: #000;
+  font-size: 1.2em;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.shalima {
+  width: 80%;
+  height: 15em;
+  margin-top: 4em;
+  margin-left: 2em;
+}
+.cocoa {
+  margin-top: 1em;
+}
+.daniel {
+  margin-top: 2em;
+}
+.shalimara-top {
+  background-color: #f4ab7e;
+}
+.cocoa-top {
+  background-color: #303936;
+}
+.daniel-top {
+  background-color: #510a00;
+}
+.dis-cont {
+  padding: 1.2em;
+}
+.discount {
+  background-color: white;
+  border-radius: 0.6em;
+  width: 30%;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}

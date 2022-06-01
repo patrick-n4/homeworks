@@ -1,0 +1,117 @@
+@font-face {
+  font-family: firacode;
+  src: url("./FONTS/FiraCode-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: firacode;
+}
+.container {
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  border-bottom: 1px solid black;
+}
+.body {
+  height: 98%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+}
+a {
+  color: black;
+}
+.checkout {
+  padding: 0.6em 2em;
+  background-color: #c0dae9;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.table {
+  width: 100%;
+  display: flex;
+  height: 30%;
+  gap: 0.5em;
+}
+.images {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.img {
+  width: 100%;
+  height: 90%;
+}
+.values {
+  width: 82%;
+  height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.Text {
+  margin-left: 2em;
+  width: 25%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.title,
+.model {
+  font-weight: bolder;
+}
+.second {
+  width: 20%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8em;
+  font-weight: bolder;
+}
+.fa-solid {
+  color: #c0dae9;
+}
+.third {
+  width: 20%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8em;
+  font-weight: bolder;
+}
+.color {
+  border: 1px solid #c0dae9;
+  padding: 0.1em 0.4em;
+}
+.fourth {
+  width: 25%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8em;
+  font-weight: bolder;
+}

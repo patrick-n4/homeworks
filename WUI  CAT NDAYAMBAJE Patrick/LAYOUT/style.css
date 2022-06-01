@@ -1,0 +1,129 @@
+@font-face {
+  font-family: firacode;
+  src: url("./FONTS/FiraCode-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: firacode;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+.header {
+  height: 20%;
+  display: flex;
+  background: #ccc;
+  font-size: 2em;
+  align-items: center;
+  justify-content: center;
+}
+.body {
+  height: 60%;
+  width: 100%;
+  background-color: yellow;
+}
+.footer {
+  height: 20%;
+  background-color: green;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.first {
+  background-color: #fff;
+  height: 55%;
+  display: flex;
+}
+.content1 {
+  font-size: 2em;
+  padding-top: 0.5em;
+  display: flex;
+  background-color: orange;
+  width: 20%;
+  justify-content: center;
+}
+.content2 {
+  font-size: 2em;
+  padding-top: 0.5em;
+  display: flex;
+  background-color: white;
+  width: 25%;
+  justify-content: center;
+}
+.content3 {
+  font-size: 2em;
+  padding-top: 0.5em;
+  display: flex;
+  background-color: blue;
+  width: 35%;
+  justify-content: center;
+  border-right: 1px #ccc solid;
+}
+.content4 {
+  font-size: 2em;
+  padding-top: 0.5em;
+  display: flex;
+  background-color: blue;
+  width: 20%;
+  justify-content: center;
+}
+.second {
+  display: flex;
+  height: 25%;
+  background-color: white;
+}
+.content5 {
+  width: 70%;
+  background-color: #ccc;
+  border: 1px gray solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.content6 {
+  width: 20%;
+  background-color: #ccc;
+  border: 1px gray solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.content7 {
+  width: 10%;
+  background-color: #ccc;
+  border: 1px gray solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.third {
+  height: 20%;
+  display: flex;
+  background-color: #fff;
+}
+.content8 {
+  width: 80%;
+  background-color: blue;
+  border: 1px gray solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.content9 {
+  width: 20%;
+  background-color: blue;
+  border: 1px gray solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
